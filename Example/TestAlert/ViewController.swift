@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TestAlert
 
 class ViewController: UIViewController {
 
@@ -14,7 +15,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
+    @IBAction func showAlert(_ sender: UIButton) {
+        TestAlert(title: "Is this simple", confirm: "Yes"){
+            print("It is so simple")
+        }.show(in: view)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

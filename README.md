@@ -1,6 +1,7 @@
 # TestAlert
 
 [![CI Status](https://img.shields.io/travis/hyper-cloud-dev/TestAlert.svg?style=flat)](https://travis-ci.org/hyper-cloud-dev/TestAlert)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Version](https://img.shields.io/cocoapods/v/TestAlert.svg?style=flat)](https://cocoapods.org/pods/TestAlert)
 [![License](https://img.shields.io/cocoapods/l/TestAlert.svg?style=flat)](https://cocoapods.org/pods/TestAlert)
 [![Platform](https://img.shields.io/cocoapods/p/TestAlert.svg?style=flat)](https://cocoapods.org/pods/TestAlert)
